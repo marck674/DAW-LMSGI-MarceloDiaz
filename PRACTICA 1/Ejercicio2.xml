@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- El catalogo entero de las peliculas -->
+<catalog>
+
+    <!-- pelicula 1 -->
+    <movie id="P01">
+
+        <!-- titulo 1 -->
+        <title>El laberint del faune</title>
+
+        <!-- Estreno -->
+        <year>2006</year>
+
+        <!-- genero -->
+        <genre>Fantasy</genre>
+
+        <!-- Duracion (minutos). -->
+        <duration unit="min">118</duration>
+
+        <!-- Lista de actores -->
+        <actors>
+
+            <!-- actor 1 -->
+            <actor>
+
+                <!-- Nombre -->
+                <first_name>Ivana</first_name>
+
+                <!-- Apellido -->
+                <last_name>Baquero</last_name>
+
+            </actor>
+
+            <!-- actor 2 -->
+            <actor>
+                <first_name>Sergi</first_name>
+                <last_name>López</last_name>
+            </actor>
+
+        </actors>
+
+    </movie>
+
+    <!-- pelicula 2 (misma estructura)-->
+    <movie id="P02">
+        <title>Societat Morta</title>
+        <year>1989</year>
+        <genre>Drama</genre>
+        <duration unit="min">128</duration>
+
+        <actors>
+            <actor>
+                <first_name>Robin</first_name>
+                <last_name>Williams</last_name>
+            </actor>
+
+            <actor>
+                <first_name>Ethan</first_name>
+                <last_name>Hawke</last_name>
+            </actor>
+
+            <actor>
+                <!-- Robert Sean es nombre compuesto, asi que Sean es parte del primer nombre-->
+                <first_name>Robert Sean</first_name>
+                <last_name>Leonard</last_name>
+            </actor>
+        </actors>
+    </movie>
+
+    <!-- pelicula 3-->
+    <movie id="P03">
+        <title>Interstellar</title>
+        <year>2014</year>
+        <genre>Science Fiction</genre>
+        <duration unit="min">169</duration>
+
+        <actors>
+            <actor>
+                <first_name>Matthew</first_name>
+                <last_name>McConaughey</last_name>
+            </actor>
+
+            <actor>
+                <first_name>Anne</first_name>
+                <last_name>Hathaway</last_name>
+            </actor>
+        </actors>
+    </movie>
+
+</catalog>

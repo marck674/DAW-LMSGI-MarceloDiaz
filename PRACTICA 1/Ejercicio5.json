@@ -1,0 +1,50 @@
+
+
+{
+    "enquestes": [
+        {
+            "id": 1,
+            "titol": "Satisfacció del servei d'atenció al client",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Com valores l'atenció rebuda?",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "Molt bona",
+                        "Bona",
+                        "Dolenta"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Què milloraries del servei?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titol": "Avaluació de l'aplicació web",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Com valores la facilitat d'ús de l'aplicació?",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "Fàcil",
+                        "Acceptable",
+                        "Difícil"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Quines funcions afegiries a l'aplicació?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        }
+    ]
+}
